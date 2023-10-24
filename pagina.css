@@ -1,0 +1,10 @@
+img{
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+header{
+    background-color: black;
+    border: 2px solid red;
+}
