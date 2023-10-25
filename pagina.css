@@ -1,14 +1,37 @@
-img{
+
+img {
     width: 70px;
     height: 70px;
     padding-left: 10px;
     padding-top: 2px;
 }
-header{
-    background-color: black;
-    border: 2px solid green;
-}
-.flex-container{
+
+.container {
     display: flex;
-  flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentIzq {
+    background-color: black;
+    border-right: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+.contentIzq a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    width: 100%;
+   
+}
+
+.navegacio {
+    padding-top: 20px;
+}
+
+.navegacio a {
+    padding-top: 0;
 }
