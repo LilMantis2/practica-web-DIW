@@ -8,11 +8,9 @@ img {
     padding-top: 2px;
 }
 
-.container {
+.contenedor {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .contentIzq {
@@ -23,41 +21,45 @@ img {
     padding: 15px;
 
 }
+.contentDerecha{
+    width: 95%;
+    background-color: black;
+}
 
 .contentIzq a {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 90px;
-    width: 100%;
-   
+    margin-bottom: 82%;
+    width: 30%;
 }
-.contentDerecha{
-    padding-right: 70px;
-
-}
-
 .navegacio {
-    padding-top: 20px;
+    padding-top: 30%;
 }
 
 .navegacio a {
     padding-top: 0;
 }
-h3{
+h5{
     font-family: 'Bebas Neue', sans-serif;
-    padding-right: 10px;
- 
+    color: green;
+    padding-top: 4%;
+    padding-left: 2%;
 }
 h1{
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Russo One', sans-serif;
+    padding-top: 1%;
+    padding-left: 7%;
+    color: green;
 }
 footer{
     background-color: black;
     border-top: 2px solid green;
+
 }
-#footerTime2{
-    padding-left: 60px;
-    
+.sobreMi{
+    padding-left: 6%;
+    padding-top: 2%;
+    max-width: 30%;
 }
+
 
