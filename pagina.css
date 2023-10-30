@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap');
 
-img {
+#logo {
     width: 70px;
     height: 70px;
     padding-left: 10px;
@@ -21,9 +21,11 @@ img {
     padding: 15px;
 
 }
-.contentDerecha{
+
+.contentDerecha {
     width: 95%;
     background-color: black;
+
 }
 
 .contentIzq a {
@@ -31,6 +33,7 @@ img {
     margin-bottom: 82%;
     width: 30%;
 }
+
 .navegacio {
     padding-top: 30%;
 }
@@ -38,28 +41,51 @@ img {
 .navegacio a {
     padding-top: 0;
 }
-h5{
+
+.webEnunciado{
     font-family: 'Bebas Neue', sans-serif;
     color: green;
     padding-top: 4%;
     padding-left: 2%;
 }
-h1{
+
+h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Russo One', sans-serif;
     padding-top: 1%;
     padding-left: 7%;
     color: green;
 }
-footer{
+
+h3 {
+    padding-right: 9%;
+}
+
+footer {
     background-color: black;
     border-top: 2px solid green;
 
 }
-.sobreMi{
-    padding-left: 6%;
+
+.sobreMi {
+    padding-left: 8%;
     padding-top: 2%;
     max-width: 30%;
+    background: linear-gradient(to bottom, #0074e4, #001f60);
+    background-position: right;
 }
 
+.curriculum {
+    width: 75%;
+    height: 60%; 
 
+}
+
+#contenedorCurriculum {
+    padding-left: 6%;
+    width: 30%;
+    height: 25%;
+    background-color: 	#5e5c5c;
+   
+    /* Agregar un borde negro alrededor del elemento */
+}
