@@ -18,7 +18,7 @@
     border-right: 2px solid green;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 2%;
 
 }
 
@@ -42,7 +42,7 @@
     padding-top: 0;
 }
 
-.webEnunciado{
+.webEnunciado {
     font-family: 'Bebas Neue', sans-serif;
     color: green;
     padding-top: 4%;
@@ -57,7 +57,7 @@ h1 {
     color: green;
 }
 
-h3 {
+.tituloSobreMi {
     padding-right: 9%;
 }
 
@@ -73,19 +73,51 @@ footer {
     max-width: 30%;
     background: linear-gradient(to bottom, #0074e4, #001f60);
     background-position: right;
+    color: white;
 }
 
 .curriculum {
     width: 75%;
-    height: 60%; 
-
+    height: 60%;
 }
 
 #contenedorCurriculum {
     padding-left: 6%;
     width: 30%;
     height: 25%;
-    background-color: 	#5e5c5c;
+    background-color: #464444;
+    color: white;
+}
+
+#contenedorCurriculum h5 {
+  padding-left: 20%;
+}
+
+.practicas {
+    width: 30%;
+    height: 10%;
+    position: absolute; 
+    top: 5%; 
+    right: 14%;
+    background-color: #464444;
+    padding: 15px;
+    color: white;
+}
+.practicas h3{
+    text-align: center;
+}
+.imgPracticas1 img{
+   display: flex;
+   justify-content: flex-end;
+    width: 55%;
+    height: 45%;
+    padding-top: 10%;
+}
+.imgPracticas2 img{
+    display: flex;
+   justify-content: flex-end;
+   width: 55%;
+   height: 45%;
+   padding-top: 10%;
    
-    /* Agregar un borde negro alrededor del elemento */
 }
