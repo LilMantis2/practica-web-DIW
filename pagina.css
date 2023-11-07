@@ -92,32 +92,37 @@ footer {
 #contenedorCurriculum h5 {
   padding-left: 20%;
 }
-
-.practicas {
+.contenidorInfoPract{
     width: 30%;
-    height: 10%;
     position: absolute; 
     top: 5%; 
-    right: 14%;
-    background-color: #464444;
-    padding: 15px;
-    color: white;
+    right: 15%;
 }
-.practicas h3{
+.titolPract{
     text-align: center;
+    color: white;
+    background-color: #464444;
 }
-.imgPracticas1 img{
-   display: flex;
-   justify-content: flex-end;
-    width: 55%;
-    height: 45%;
-    padding-top: 10%;
-}
-.imgPracticas2 img{
+
+.practicas {
     display: flex;
-   justify-content: flex-end;
-   width: 55%;
-   height: 45%;
-   padding-top: 10%;
-   
+    justify-content: space-between; /* Separa las dos primeras prácticas a la izquierda y las dos últimas a la derecha */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten a la siguiente línea cuando no haya suficiente espacio en el ancho del contenedor */
+}
+
+.imgPracticas1, .imgPracticas2, .imgPracticas3, .imgPracticas4 {
+    flex: 0 0 calc(50% - 10px); /* Ajusta el ancho para acomodar dos imágenes por fila (50% para cada imagen) y agrega un espacio de 10px entre ellas */
+}
+
+.imgPracticas1, .imgPracticas2 {
+    right: 1; /* Cambia el orden de visualización de la primera y segunda imagen */
+}
+
+.imgPracticas3, .imgPracticas4 {
+    right: 2; /* Cambia el orden de visualización de la tercera y cuarta imagen */
+}
+
+.imgPracticas1 img, .imgPracticas2 img, .imgPracticas3 img, .imgPracticas4 img {
+    width: 100%;
+    height: auto;
 }
