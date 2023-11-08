@@ -1,0 +1,19 @@
+.contenedorCurriculum{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%; 
+
+}
+.infoIzquierda img{
+    height: 40%;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+.contacto{
+    padding-top: 5%;
+
+}
+.infoIzquierda{
+    background-color: rgb(14, 14, 95);
+    color: white;
+}
