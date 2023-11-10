@@ -1,19 +1,40 @@
-.contenedorCurriculum{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    height: 100%;
+}
+.contenedorCurriculum {
     display: flex;
     justify-content: space-around;
-    padding-top: 5%; 
-
+    padding-top: 3%;
 }
-.infoIzquierda img{
-    height: 40%;
+h2{
+    padding-left: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+.infoIzquierda img {
+    height: 30%;
     padding-left: 4%;
     padding-top: 5%;
 }
-.contacto{
-    padding-top: 5%;
-
-}
-.infoIzquierda{
+.infoIzquierda {
     background-color: rgb(14, 14, 95);
-    color: white;
+    color: rgb(255, 255, 255);
+    width: 20%;
+}
+.contacto {
+    padding-top: 5%;
+    padding-left: 3%;
+}
+ h3 {
+    padding-left: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+.sobreMi p {
+    padding-left: 3%;
+}
+.naixament{
+    padding-left: 3%;
+}
+.idiomas li{
+    padding-left: 3%;
 }
