@@ -22,6 +22,13 @@
 
 }
 
+.contentIzq a {
+    color: white;
+    /* Cambia el color del texto del enlace */
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+}
+
 .contentDerecha {
     width: 95%;
     background-color: black;
@@ -35,7 +42,7 @@
 }
 
 .navegacio {
-    padding-top: 30%;
+    padding-top: 35%;
 }
 
 .navegacio a {
@@ -68,12 +75,20 @@ footer {
 }
 
 .sobreMi {
-    padding-left: 8%;
-    padding-top: 2%;
+    margin-left: 5%;
     max-width: 30%;
     background: linear-gradient(to bottom, #0074e4, #001f60);
-    background-position: right;
     color: white;
+    border-radius: 10px;
+}
+
+.sobreMi p {
+    padding-left: 6%;
+    padding-bottom: 2%;
+}
+
+.sobreMi h3 {
+    text-align: center;
 }
 
 .curriculum {
@@ -84,21 +99,24 @@ footer {
 #contenedorCurriculum {
     padding-left: 6%;
     width: 30%;
-    height: 25%;
+    margin-left: 5%;
     background-color: #464444;
     color: white;
+    border-radius: 10px;
 }
 
 #contenedorCurriculum h5 {
-  padding-left: 20%;
+    padding-left: 20%;
 }
-.contenidorInfoPract{
+
+.contenidorInfoPract {
     width: 30%;
-    position: absolute; 
-    top: 5%; 
+    position: absolute;
+    top: 5%;
     right: 15%;
 }
-.titolPract{
+
+.titolPract {
     text-align: center;
     color: white;
     background-color: #464444;
@@ -106,29 +124,31 @@ footer {
 
 .practicas {
     display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap; 
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 14%;
 }
 
-.imgPracticas1, .imgPracticas2, .imgPracticas3, .imgPracticas4 {
-    flex: 0 0 calc(50% - 3px); 
+.imgPracticas1,
+.imgPracticas2,
+.imgPracticas3,
+.imgPracticas4 {
+    flex: 0 0 calc(50% - 3px);
 }
 
-.imgPracticas3{
+.imgPracticas3 {
     padding-top: 15%;
     height: fit-content;
 }
-.imgPracticas4{
+
+.imgPracticas4 {
     padding-top: 15%;
 }
 
-
-
-.imgPracticas1 img, .imgPracticas2 img, .imgPracticas3 img, .imgPracticas4 img {
+.imgPracticas1 img,
+.imgPracticas2 img,
+.imgPracticas3 img,
+.imgPracticas4 img {
     width: 100%;
     height: auto;
-}
-footer a{
-    
 }
