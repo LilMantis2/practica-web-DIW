@@ -1,40 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-body{
+
+body {
     height: 100%;
 }
+
 .contenedorCurriculum {
     display: flex;
     justify-content: space-around;
     padding-top: 3%;
 }
-h2{
+
+h2 {
     padding-left: 3%;
     font-family: 'Roboto', sans-serif;
 }
+
 .infoIzquierda img {
     height: 30%;
     padding-left: 4%;
     padding-top: 5%;
 }
+
 .infoIzquierda {
     background-color: rgb(14, 14, 95);
     color: rgb(255, 255, 255);
     width: 20%;
 }
+
 .contacto {
     padding-top: 5%;
     padding-left: 3%;
 }
- h3 {
+
+h3 {
     padding-left: 3%;
     font-family: 'Roboto', sans-serif;
 }
+
 .sobreMi p {
     padding-left: 3%;
 }
-.naixament{
+
+.naixament {
     padding-left: 3%;
 }
-.idiomas li{
+
+.idiomas li {
     padding-left: 3%;
+}
+
+.infoDerecha {
+    width: 40%;
+}
+
+.infoDerecha>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.habilidades h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(14, 14, 95);
+    border-bottom: 2px solid rgb(14, 14, 95);
+    padding-bottom: 2%;
+}
+.formacion h1{
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(14, 14, 95);
+    border-bottom: 2px solid rgb(14, 14, 95);
+    padding-bottom: 2%;
+}
+
+.infoDerecha h4 {
+    margin: 0;
+    padding: 2%;
+    width: 50%;
 }
