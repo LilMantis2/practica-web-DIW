@@ -26,9 +26,21 @@ h2 {
     color: rgb(255, 255, 255);
     width: 20%;
 }
+.boton button{
+    background-color: #0074e4;
+    color: white; 
+    padding: 10px 15px;
+    border: none; 
+    border-radius: 5px; 
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.2);
+}
+.boton button:hover {
+    background-color: rgb(44, 34, 189); 
+    transition: background-color 0.3s ease; 
+}
 
 .contacto {
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 3%;
 }
 
@@ -51,14 +63,18 @@ h3 {
 
 .infoDerecha {
     width: 40%;
-   
 }
-
+.idiomas{
+    background-color: rgb(14, 14, 95);
+}
+.idiomas .boton{
+  padding-left: 27%;
+  padding-top: 1%;
+}
 .infoDerecha>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
 
 .habilidades h1{
@@ -85,6 +101,7 @@ h3 {
 }
 
 
+
 @media only screen and (max-width: 768px) {
     .contenedorCurriculum {
         flex-direction: column; 
@@ -99,9 +116,14 @@ h3 {
         width: 100%;
         padding-right: 2%;
     }
+    
 
     .infoDerecha {
         width: 100%; 
     }
+    .idiomas .boton{
+        padding-left: 42%;
+        padding-bottom: 1%;
+      }
  
 }

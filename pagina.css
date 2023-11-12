@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap');
+
 body {
     height: 100%;
     margin: 0;
 }
+
 #logo {
     width: 70px;
     height: 70px;
@@ -131,6 +133,7 @@ footer {
     padding-top: 14%;
 }
 
+
 .imgPracticas1,
 .imgPracticas2,
 .imgPracticas3,
@@ -154,50 +157,58 @@ footer {
     width: 100%;
     height: auto;
 }
+
 footer {
     flex-direction: column;
     align-items: center;
 }
 
 
-
-
 @media only screen and (max-width: 768px) {
     .contentIzq {
-        border-right: none;
-        padding: 5%;
+        padding: 3%;
+        width: 40%;
     }
+
+    .sobreMi {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 17%;
+        max-width: 80%;
+        color: white;
+    }
+
     .contenidorInfoPract {
         width: 30%;
-        position: static; /* Cambiado de absolute a static */
-        margin-top: 5%; /* Ajuste en el margen superior */
-        margin-right: 5%; /* Ajuste en el margen derecho */
+        position: static;
+        margin-top: 15%;
     }
+
     .contentIzq a {
-        width: 100%;
-        margin-bottom: 10px;
+        padding-top: 55%;
     }
 
-    .contentDerecha {
-        width: 100%;
-    }
-
-    .sobreMi,
     #contenedorCurriculum,
     .contenidorInfoPract {
         width: 100%;
         margin-left: 0;
-        margin-right: 0; /* Ajuste en el margen derecho */
+        margin-right: 0;
     }
 
     .practicas {
         padding-top: 5%;
     }
 
-    .imgPracticas1,
-    .imgPracticas2,
-    .imgPracticas3,
-    .imgPracticas4 {
-        flex: 0 0 100%;
+    #contenedorCurriculum h6 {
+        text-align: center;
+    }
+    #contenedorCurriculum h5{
+        padding-right: 10%;
+        max-width: 100%;
+    } 
+    #contenedorCurriculum img {
+        display: block;
+        margin: auto;
+       padding-top: 2%;
     }
 }
