@@ -51,12 +51,14 @@ h3 {
 
 .infoDerecha {
     width: 40%;
+   
 }
 
 .infoDerecha>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
 .habilidades h1{
@@ -77,4 +79,29 @@ h3 {
     margin: 0;
     padding: 2%;
     width: 50%;
+}
+.formacion h3{
+    padding-top: 5%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contenedorCurriculum {
+        flex-direction: column; 
+    }
+
+    .infoIzquierda {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .infoIzquierda img {
+        width: 100%;
+        padding-right: 2%;
+    }
+
+    .infoDerecha {
+        width: 100%; 
+    }
+ 
 }

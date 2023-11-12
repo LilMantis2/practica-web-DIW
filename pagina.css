@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap');
-
+body {
+    height: 100%;
+    margin: 0;
+}
 #logo {
     width: 70px;
     height: 70px;
@@ -19,20 +22,17 @@
     display: flex;
     flex-direction: column;
     padding: 2%;
-
+    padding-top: 3%;
 }
 
 .contentIzq a {
     color: white;
-    /* Cambia el color del texto del enlace */
     text-decoration: none;
-    /* Elimina el subrayado del enlace */
 }
 
 .contentDerecha {
     width: 95%;
     background-color: black;
-
 }
 
 .contentIzq a {
@@ -71,7 +71,9 @@ h1 {
 footer {
     background-color: black;
     border-top: 2px solid green;
-
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 4px solid green;
 }
 
 .sobreMi {
@@ -151,4 +153,51 @@ footer {
 .imgPracticas4 img {
     width: 100%;
     height: auto;
+}
+footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .contentIzq {
+        border-right: none;
+        padding: 5%;
+    }
+    .contenidorInfoPract {
+        width: 30%;
+        position: static; /* Cambiado de absolute a static */
+        margin-top: 5%; /* Ajuste en el margen superior */
+        margin-right: 5%; /* Ajuste en el margen derecho */
+    }
+    .contentIzq a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contentDerecha {
+        width: 100%;
+    }
+
+    .sobreMi,
+    #contenedorCurriculum,
+    .contenidorInfoPract {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0; /* Ajuste en el margen derecho */
+    }
+
+    .practicas {
+        padding-top: 5%;
+    }
+
+    .imgPracticas1,
+    .imgPracticas2,
+    .imgPracticas3,
+    .imgPracticas4 {
+        flex: 0 0 100%;
+    }
 }
